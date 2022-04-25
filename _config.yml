@@ -1,0 +1,23 @@
+google_analytics: 
+
+title: Odet
+description: The game of life
+
+plugins:
+  - jekyll-seo-tag
+
+exclude: [
+  styles/index.css,
+  styles/syntax.css,
+  package.json,
+  package-lock.json,
+  postcss.config.js,
+  readme.md,
+]
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include: ["node_modules/tailwindcss"]
