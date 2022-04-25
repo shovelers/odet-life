@@ -10,7 +10,13 @@ module.exports = {
     purge: [
         '{,!(node_modules|_site)/**/}*.{html,md}',
     ],
-    theme: {},
+    theme: {
+      extend: {
+        fontFamily: {
+          special: ['"Special Elite"'],
+        },
+      },
+    },
     plugins: [
         require('@tailwindcss/typography'),
     ],
