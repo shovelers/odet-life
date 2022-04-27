@@ -9,9 +9,6 @@ backLink: false
       <img src="assets/GoL1bbg.gif">
     </div>
     <div class="grid place-content-center relative md:w-3/5">
-      <div class="hidden md:block absolute bottom-0 -right-36 z-0">
-        <img src="assets/gol_block_1.svg">
-      </div>
       <div class="hidden md:block absolute -top-40 -right-10 z-0">
         <img src="assets/gol_block_2.svg">
       </div>
@@ -36,6 +33,20 @@ backLink: false
           </ul>
         </article>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid place-items-center w-full md:w-2/3 overflow-auto md:mb-12">
+  <div id="sketch-holder"></div>
+</div>
+
+<div class="flex flex-col justify-center items-center bg-gray-900 text-gray-300 p-6 md:pt-10 md:pb-20 md:px-32">
+  <div class="flex flex-col justify-evenly items-center">
+    <div class="grid place-content-center relative md:w-3/5">
+      <div class="hidden md:block absolute bottom-0 -right-36 z-0">
+        <img src="assets/gol_block_1.svg">
+      </div>
       <div class="z-10">
         <article class="prose text-gray-300 max-w-none">
           <p>Odet Life NFT collection pays tribute to Game of Life, and intends to increase the reach of this meme. Each NFT in the collection contains a unique initial configuration for Life.
@@ -57,7 +68,4 @@ backLink: false
   </div>
 </div>
 
-<div class="grid place-items-center w-full md:w-2/3 overflow-auto md:mb-12">
-  <div id="sketch-holder"/>
-</div>
 <script src="{{ "/assets/sketch.js" | relative_url }}"></script>
