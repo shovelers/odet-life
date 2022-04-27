@@ -6,7 +6,8 @@ let board;
 let next;
 
 function setup() {
-  createCanvas(720, 400);
+  var canvas = createCanvas(720, 400);
+  canvas.parent('sketch-holder');
   w = 4;
   columns = floor(width / w);
   rows = floor(height / w);
