@@ -41,6 +41,8 @@ backLink: false
           <p>Project will be launched with a few privately distributed NFTs, and three visualisation to see the NFTs. We intend to ship a new visualisation every month, so that this art piece can be displayed in interesting ways and places. We will also reward NFT to anyone who submits a new visualisation. If project gathers enough requests from the community, we will organise a sale.</p>
         </article>
       </div>
+      <div id="sketch-holder" />
     </div>
   </div>
 </div>
+<script src="{{ "/assets/sketch.js" | relative_url }}"></script>
