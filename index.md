@@ -33,7 +33,7 @@ backLink: false
             neighbours will come to life.</li>
             <li>Death: A live cell with zero or one live neighbours will die of isolation; A live cell with four or more live neighbours will die of overpopulation.</li>
             <li>Survival: A live cell with two or three live neighbours remains alive.</li>
-          </ul>
+            </ul>
           <p>Odet Life NFT collection pays tribute to Game of Life, and intends to increase the reach of this meme. Each NFT in the collection contains a unique initial configuration for Life.
           Game of Life’s initial map is encoded onto the NFT, and written on chain permanently. Making it truly on-chain artwork, and not just some simple link to JPEG.</p>
           <p>Since, Game of Life is deterministic, NFT will evolve in the exact same patterns no matter how you show it. This brings us to the fun part - Odet Life NFTs are dynamic like the game
@@ -41,7 +41,6 @@ backLink: false
           <p>Project will be launched with a few privately distributed NFTs, and three visualisation to see the NFTs. We intend to ship a new visualisation every month, so that this art piece can be displayed in interesting ways and places. We will also reward NFT to anyone who submits a new visualisation. If project gathers enough requests from the community, we will organise a sale.</p>
         </article>
       </div>
-      <div id="sketch-holder" />
     </div>
   </div>
   <div class="flex flex-col bg-gray-800 w-full md:w-1/2 rounded-lg mt-6 md:mt-12 p-4">
@@ -52,4 +51,5 @@ backLink: false
     </form>
   </div>
 </div>
+<div id="sketch-holder"/>
 <script src="{{ "/assets/sketch.js" | relative_url }}"></script>
