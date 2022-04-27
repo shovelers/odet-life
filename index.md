@@ -60,7 +60,7 @@ backLink: false
   </div>
 
   <div class="flex flex-col bg-gray-800 w-full md:w-1/2 rounded-lg mt-6 md:mt-12 p-4">
-  <p class="text-center text-lg font-semibold mb-3">Mint Happening Soon!<br>Signup to get the information</p>
+  <p class="text-center text-lg font-semibold mb-3">Request to Mint!<br>Signup to get the information</p>
     <form class="flex flex-row gap-4 justify-between items-center" action="https://app.convertkit.com/forms/3221811/subscriptions" method="post" data-sv-form="3221811" data-uid="19d88e82b2">
       <input class="text-black bg-white focus:ring-2 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm w-4/5 py-3.5 text-center md:mr-0" type="email" value="" name="email_address" placeholder="Email Address" id="email" required>
       <input type="submit" data-element="submit" class="subscribe" value="Signup" class="text-white bg-blue-700 hover:bg-blue-600 focus:ring-2 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm w-1/5 py-3.5 text-center md:mr-0">
