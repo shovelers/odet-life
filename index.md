@@ -35,6 +35,8 @@ backLink: false
             <li>Survival: A live cell with two or three live neighbours remains alive.</li>
           </ul>
         </article>
+      </div>
+      <div class="z-10">
         <article class="prose text-gray-300 max-w-none">
           <p>Odet Life NFT collection pays tribute to Game of Life, and intends to increase the reach of this meme. Each NFT in the collection contains a unique initial configuration for Life.
           Game of Life’s initial map is encoded onto the NFT, and written on chain permanently. Making it truly on-chain artwork, and not just some simple link to JPEG.</p>
@@ -45,6 +47,7 @@ backLink: false
       </div>
     </div>
   </div>
+
   <div class="flex flex-col bg-gray-800 w-full md:w-1/2 rounded-lg mt-6 md:mt-12 p-4">
   <p class="text-center text-lg font-semibold mb-3">Mint Happening Soon!<br>Signup to get the information</p>
     <form class="flex flex-row gap-4 justify-between items-center" action="https://app.convertkit.com/forms/3221811/subscriptions" method="post" data-sv-form="3221811" data-uid="19d88e82b2">
@@ -53,6 +56,7 @@ backLink: false
     </form>
   </div>
 </div>
+
 <div class="grid place-items-center w-full md:w-2/3 overflow-auto">
   <div id="sketch-holder"/>
 </div>
