@@ -9,7 +9,7 @@ backLink: false
       <img src="assets/GoL1bbg.gif">
     </div>
     <div class="grid place-content-center">
-      <p class="text-gray-200 text-5xl md:text-7xl font-bold">Game Of Life</p>
+      <p class="text-gray-200 text-5xl md:text-7xl font-bold text-center mb-4 md:mb-8">Game Of Life</p>
       <p class="font-mono">Odet.Life is a fully on-chain and owenable representation of COnway's Game of Life. <br> A cellular automata which generates new maps as the time goes by</p>
       <p class="text-xl">Data stored on chain, new viuslaizers release every month. it's fun</p>
       <p class="text-xl font-special">Data stored on chain, new viuslaizers release every month. it's fun</p>
