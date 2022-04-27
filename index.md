@@ -3,12 +3,12 @@ layout: post
 backLink: false
 ---
 
-<div class="flex flex-col justify-center items-center bg-gray-900 text-gray-300 p-6 md:p-20 space-y-3">
-  <div class="flex flex-col justify-evenly items-center space-x-6">
-    <div class="w-2/3 md:w-1/5">
+<div class="flex flex-col justify-center items-center bg-gray-900 text-gray-300 p-6 md:pt-10 md:pb-20 md:px-32">
+  <div class="flex flex-col justify-evenly items-center">
+    <div class="w-2/3 md:w-1/4">
       <img src="assets/GoL1bbg.gif">
     </div>
-    <div class="grid place-content-center relative">
+    <div class="grid place-content-center relative md:w-3/5">
       <div class="hidden md:block absolute bottom-0 -right-36 z-0">
         <img src="assets/gol_block_1.svg">
       </div>
@@ -20,7 +20,7 @@ backLink: false
       </div>
       <div class="z-10">
         <p class="text-gray-200 text-4xl md:text-6xl font-bold text-center mb-4 md:mb-8">Odet.Life</p>
-        <article class="prose text-gray-300">
+        <article class="prose text-gray-300 max-w-none">
           <p>Odet Life is a dynamic generative art project based on Conway’s Game of Life</p>
           <p>Game of Life was not the first cellular automata ever created. John Von Neumann and Stanislaw Ulam discovered them in 1940s and it has been a topic for computer scientist ever since.
         But, Life was the first one to achieve cult status in 1970s. Since then, it has been gateway for generations of programmers. People are still discovering new patterns 50 year
@@ -43,6 +43,13 @@ backLink: false
       </div>
       <div id="sketch-holder" />
     </div>
+  </div>
+  <div class="flex flex-col bg-gray-800 w-full md:w-1/2 rounded-lg mt-6 md:mt-12 p-4">
+  <p class="text-center text-lg font-semibold mb-3">Mint Happening Soon!<br>Signup to get the information</p>
+    <form class="flex flex-row gap-4 justify-between items-center" action="https://app.convertkit.com/forms/3221811/subscriptions" method="post" data-sv-form="3221811" data-uid="19d88e82b2">
+      <input class="text-black bg-white focus:ring-2 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm w-4/5 py-3.5 text-center md:mr-0" type="email" value="" name="email_address" placeholder="Email Address" id="email" required>
+      <input type="submit" data-element="submit" class="subscribe" value="Signup" class="text-white bg-blue-700 hover:bg-blue-600 focus:ring-2 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm w-1/5 py-3.5 text-center md:mr-0">
+    </form>
   </div>
 </div>
 <script src="{{ "/assets/sketch.js" | relative_url }}"></script>
