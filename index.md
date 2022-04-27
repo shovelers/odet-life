@@ -57,7 +57,7 @@ backLink: false
   </div>
 </div>
 
-<div class="grid place-items-center w-full md:w-2/3 overflow-auto">
+<div class="grid place-items-center w-full md:w-2/3 overflow-auto md:mb-12">
   <div id="sketch-holder"/>
 </div>
 <script src="{{ "/assets/sketch.js" | relative_url }}"></script>
