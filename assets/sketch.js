@@ -23,6 +23,10 @@ function setup() {
 }
 
 function draw() {
+  drawOG();
+}
+
+function drawOG() {
   background(255);
   generate();
   for ( let i = 0; i < columns;i++) {
@@ -34,7 +38,61 @@ function draw() {
       rect(i * w, j * w, w-1, w-1);
     }
   }
+}
 
+function drawSolarizedDark() {
+  background(7,54,66);
+  generate();
+  for ( let i = 0; i < columns;i++) {
+    for ( let j = 0; j < rows;j++) {
+      let c1 = color(38,139,210); //blue
+      let c2 = color(42,161,152);  //cyan
+      let c3 = color(133,153,0);  //green
+      let c4 = color(181,137,0);  //yellow
+      let c5 = color(108,113,196);  //violet
+      if ((board[i][j] == 1) && i%3 === 0) {fill(c1);}
+      else if ((board[i][j] == 1) && i%3 === 1) {fill(c3);}
+      else if ((board[i][j] == 1) && i%3 === 2) {fill(c4);}
+      else {fill(7,54,66); stroke('black');}
+      ellipse(i * w, j * w, w-1, w-1);
+    }
+  }
+}
+
+function drawSolarizedLight() {
+  background(238,232,213);
+  generate();
+  for ( let i = 0; i < columns;i++) {
+    for ( let j = 0; j < rows;j++) {
+      let c1 = color(38,139,210); //blue
+      let c2 = color(42,161,152);  //cyan
+      let c3 = color(133,153,0);  //green
+      let c4 = color(181,137,0);  //yellow
+      let c5 = color(108,113,196);  //violet
+      if ((board[i][j] == 1) && i%3 === 0) {fill(c1);}
+      else if ((board[i][j] == 1) && i%3 === 1) {fill(c3);}
+      else if ((board[i][j] == 1) && i%3 === 2) {fill(c4);}
+      else {fill(238,232,213); stroke(238,232,213)}
+      ellipse(i * w, j * w, w-1, w-1);
+    }
+  }
+
+}
+
+function drawDarcula() {
+  background(17, 24, 39);
+  generate();
+  for ( let i = 0; i < columns;i++) {
+    for ( let j = 0; j < rows;j++) {
+      let c1 = color(255, 121, 198);
+      let c2 = color(80, 250, 123)
+      if ((board[i][j] == 1) && i%3 === 0) {fill(c2);}
+      else if ((board[i][j] == 1) && i%3 === 1) {fill(c1);}
+      else if ((board[i][j] == 1) && i%3 === 2) {fill(c1);}
+      else {fill(17, 24, 39); stroke('black');}
+      ellipse(i * w, j * w, w-1, w-2);
+    }
+  }
 }
 
 function mousePressed() {
