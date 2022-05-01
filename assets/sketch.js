@@ -5,10 +5,24 @@ let rows;
 let board;
 let next;
 
+config = {
+  canvasId: "sketch-holder",
+  width: 720,
+  height: 400,
+  cellSize: 4,
+  drawStyle: [
+    "drawOG",
+    "drawSolarizedDark",
+    "drawSolarizedLight",
+    "drawDarcula"
+  ]
+}
+drawFunction = config.drawStyle[0];
+
 function setup() {
-  var canvas = createCanvas(720, 400);
-  canvas.parent('sketch-holder');
-  w = 4;
+  var canvas = createCanvas(config.width, config.height);
+  canvas.parent(config.canvasId);
+  w = config.cellSize;
   columns = floor(width / w);
   rows = floor(height / w);
   board = new Array(columns);
@@ -23,7 +37,12 @@ function setup() {
 }
 
 function draw() {
-  drawOG();
+  this[drawFunction]();
+}
+
+function mousePressed() {
+  drawFunction = config.drawStyle[Math.floor(Math.random() * config.drawStyle.length)];
+  init();
 }
 
 function drawOG() {
@@ -93,10 +112,6 @@ function drawDarcula() {
       ellipse(i * w, j * w, w-1, w-2);
     }
   }
-}
-
-function mousePressed() {
-  init();
 }
 
 function init() {
