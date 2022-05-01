@@ -7,3 +7,4 @@ backLink: false
   <div id="sketch-holder" />
 </div>
 <script src="{{ "/assets/sketch.js" | relative_url }}"></script>
+<script type="module" src="{{ "/assets/nft.js" | relative_url }}"></script>
